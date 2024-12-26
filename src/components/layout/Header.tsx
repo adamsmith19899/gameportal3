@@ -10,7 +10,7 @@ const mainNavItems = [
   { label: 'Racing', href: '/category/racing' },
   { label: 'Sports', href: '/category/sports' },
   { label: 'Puzzle', href: '/category/puzzle' },
-  { label: '2 Player', href: '/category/2player' },
+  { label: '2Player', href: '/category/2player' },
   { label: 'More', href: '/categories' }
 ];
 
