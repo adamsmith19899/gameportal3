@@ -7,7 +7,7 @@ const socialLinks = [
   { icon: Twitter, href: '#', label: 'Twitter' },
   { icon: Instagram, href: '#', label: 'Instagram' },
   { icon: Youtube, href: '#', label: 'YouTube' },
-  { icon: Github, href: '#', label: 'GitHub' },
+  { icon: Github, href: 'https://github.com/adamsmith19899', label: 'GitHub' },
 ];
 
 const quickLinks = [
@@ -24,10 +24,10 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-purple-200 mb-4">
-              <Link to="/">Unblocked-Games-ATSchool.Github.io</Link>
+              <Link to="/">H5 Games</Link>
             </h3>
             <p className="text-white/60 text-sm">
-              The best collection of unblocked games for school entertainment.
+              The best collection of games for entertainment.
             </p>
           </div>
           <div>
@@ -62,7 +62,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t border-white/10 pt-8 text-center text-white/60 text-sm">
-          <p>© 2024 Unblocked-Games-ATSchool.Github.io. All rights reserved.</p>
+          <p>© 2024 H5 Games All rights reserved.</p>
         </div>
       </div>
     </footer>
